@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF4718E92170A0A10033A021 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4718E82170A0A10033A021 /* Student.m */; };
+		CF652A9F21799E41004A0D5C /* LEOSum.m in Sources */ = {isa = PBXBuildFile; fileRef = CF652A9E21799E41004A0D5C /* LEOSum.m */; };
 		CFF0C5C22164679900191B61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF0C5C12164679900191B61 /* AppDelegate.m */; };
 		CFF0C5C52164679900191B61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF0C5C42164679900191B61 /* ViewController.m */; };
 		CFF0C5C82164679900191B61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF0C5C62164679900191B61 /* Main.storyboard */; };
@@ -16,7 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CFF0C5BD2164679800191B61 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4718E72170A0A10033A021 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		CF4718E82170A0A10033A021 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		CF652A9D21799E41004A0D5C /* LEOSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEOSum.h; sourceTree = "<group>"; };
+		CF652A9E21799E41004A0D5C /* LEOSum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEOSum.m; sourceTree = "<group>"; };
+		CFF0C5BD2164679800191B61 /* ios-learn1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-learn1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF0C5C02164679900191B61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CFF0C5C12164679900191B61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CFF0C5C32164679900191B61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -50,7 +56,7 @@
 		CFF0C5BE2164679800191B61 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CFF0C5BD2164679800191B61 /* test.app */,
+				CFF0C5BD2164679800191B61 /* ios-learn1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +72,10 @@
 				CFF0C5C9216467A000191B61 /* Assets.xcassets */,
 				CFF0C5CB216467A000191B61 /* LaunchScreen.storyboard */,
 				CFF0C5CE216467A000191B61 /* Info.plist */,
+				CF652A9D21799E41004A0D5C /* LEOSum.h */,
+				CF652A9E21799E41004A0D5C /* LEOSum.m */,
+				CF4718E72170A0A10033A021 /* Student.h */,
+				CF4718E82170A0A10033A021 /* Student.m */,
 				CFF0C5CF216467A000191B61 /* main.m */,
 			);
 			path = test;
@@ -74,9 +84,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CFF0C5BC2164679800191B61 /* test */ = {
+		CFF0C5BC2164679800191B61 /* ios-learn1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFF0C5D3216467A000191B61 /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = CFF0C5D3216467A000191B61 /* Build configuration list for PBXNativeTarget "ios-learn1" */;
 			buildPhases = (
 				CFF0C5B92164679800191B61 /* Sources */,
 				CFF0C5BA2164679800191B61 /* Frameworks */,
@@ -86,9 +96,9 @@
 			);
 			dependencies = (
 			);
-			name = test;
+			name = "ios-learn1";
 			productName = test;
-			productReference = CFF0C5BD2164679800191B61 /* test.app */;
+			productReference = CFF0C5BD2164679800191B61 /* ios-learn1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +115,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CFF0C5B82164679800191B61 /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = CFF0C5B82164679800191B61 /* Build configuration list for PBXProject "ios-learn1" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +128,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CFF0C5BC2164679800191B61 /* test */,
+				CFF0C5BC2164679800191B61 /* ios-learn1 */,
 			);
 		};
 /* End PBXProject section */
@@ -141,9 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF652A9F21799E41004A0D5C /* LEOSum.m in Sources */,
 				CFF0C5C52164679900191B61 /* ViewController.m in Sources */,
 				CFF0C5D0216467A000191B61 /* main.m in Sources */,
 				CFF0C5C22164679900191B61 /* AppDelegate.m in Sources */,
+				CF4718E92170A0A10033A021 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CFF0C5B82164679800191B61 /* Build configuration list for PBXProject "test" */ = {
+		CFF0C5B82164679800191B61 /* Build configuration list for PBXProject "ios-learn1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CFF0C5D1216467A000191B61 /* Debug */,
@@ -325,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CFF0C5D3216467A000191B61 /* Build configuration list for PBXNativeTarget "test" */ = {
+		CFF0C5D3216467A000191B61 /* Build configuration list for PBXNativeTarget "ios-learn1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CFF0C5D4216467A000191B61 /* Debug */,
