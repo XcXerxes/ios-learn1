@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LEOSquare : NSObject
 {
+    @public
     int side;
 }
 -(void)setSide: (int)_side;

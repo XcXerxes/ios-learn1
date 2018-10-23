@@ -18,6 +18,12 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)setWidth: (int)_width;
 -(void)setHeight: (int)_height;
 
+/*
+ 获取属性值
+ */
+-(int)width;
+-(int)height;
+
 -(int)area;
 +(id)rectangle;
 

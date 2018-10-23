@@ -13,6 +13,11 @@
 		0D6FFEA3217E0D10002BAE4D /* LEOTriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6FFEA2217E0D10002BAE4D /* LEOTriangle.m */; };
 		CF4718E92170A0A10033A021 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4718E82170A0A10033A021 /* Student.m */; };
 		CF652A9F21799E41004A0D5C /* LEOSum.m in Sources */ = {isa = PBXBuildFile; fileRef = CF652A9E21799E41004A0D5C /* LEOSum.m */; };
+		CF652AC5217EBCD9004A0D5C /* LEOShape.m in Sources */ = {isa = PBXBuildFile; fileRef = CF652AC4217EBCD9004A0D5C /* LEOShape.m */; };
+		CF652AC8217EC40E004A0D5C /* LEOShapeRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = CF652AC7217EC40E004A0D5C /* LEOShapeRectangle.m */; };
+		CF652ACB217EC576004A0D5C /* LEOShapeSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = CF652ACA217EC576004A0D5C /* LEOShapeSquare.m */; };
+		CF652ACE217ED096004A0D5C /* LEOShapeCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = CF652ACD217ED096004A0D5C /* LEOShapeCircle.m */; };
+		CF652AD1217EEDA3004A0D5C /* LEOShapeTriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = CF652AD0217EEDA3004A0D5C /* LEOShapeTriangle.m */; };
 		CFF0C5C22164679900191B61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF0C5C12164679900191B61 /* AppDelegate.m */; };
 		CFF0C5C52164679900191B61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF0C5C42164679900191B61 /* ViewController.m */; };
 		CFF0C5C82164679900191B61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF0C5C62164679900191B61 /* Main.storyboard */; };
@@ -34,6 +39,16 @@
 		CF4718E82170A0A10033A021 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		CF652A9D21799E41004A0D5C /* LEOSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEOSum.h; sourceTree = "<group>"; };
 		CF652A9E21799E41004A0D5C /* LEOSum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEOSum.m; sourceTree = "<group>"; };
+		CF652AC3217EBCD9004A0D5C /* LEOShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEOShape.h; sourceTree = "<group>"; };
+		CF652AC4217EBCD9004A0D5C /* LEOShape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEOShape.m; sourceTree = "<group>"; };
+		CF652AC6217EC40E004A0D5C /* LEOShapeRectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEOShapeRectangle.h; sourceTree = "<group>"; };
+		CF652AC7217EC40E004A0D5C /* LEOShapeRectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEOShapeRectangle.m; sourceTree = "<group>"; };
+		CF652AC9217EC576004A0D5C /* LEOShapeSquare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEOShapeSquare.h; sourceTree = "<group>"; };
+		CF652ACA217EC576004A0D5C /* LEOShapeSquare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEOShapeSquare.m; sourceTree = "<group>"; };
+		CF652ACC217ED096004A0D5C /* LEOShapeCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEOShapeCircle.h; sourceTree = "<group>"; };
+		CF652ACD217ED096004A0D5C /* LEOShapeCircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEOShapeCircle.m; sourceTree = "<group>"; };
+		CF652ACF217EEDA3004A0D5C /* LEOShapeTriangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEOShapeTriangle.h; sourceTree = "<group>"; };
+		CF652AD0217EEDA3004A0D5C /* LEOShapeTriangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEOShapeTriangle.m; sourceTree = "<group>"; };
 		CFF0C5BD2164679800191B61 /* ios-learn1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-learn1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF0C5C02164679900191B61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CFF0C5C12164679900191B61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,6 +87,23 @@
 			path = graph;
 			sourceTree = "<group>";
 		};
+		CF652AC2217EBC29004A0D5C /* inherit */ = {
+			isa = PBXGroup;
+			children = (
+				CF652AC3217EBCD9004A0D5C /* LEOShape.h */,
+				CF652AC4217EBCD9004A0D5C /* LEOShape.m */,
+				CF652AC6217EC40E004A0D5C /* LEOShapeRectangle.h */,
+				CF652AC7217EC40E004A0D5C /* LEOShapeRectangle.m */,
+				CF652AC9217EC576004A0D5C /* LEOShapeSquare.h */,
+				CF652ACA217EC576004A0D5C /* LEOShapeSquare.m */,
+				CF652ACC217ED096004A0D5C /* LEOShapeCircle.h */,
+				CF652ACD217ED096004A0D5C /* LEOShapeCircle.m */,
+				CF652ACF217EEDA3004A0D5C /* LEOShapeTriangle.h */,
+				CF652AD0217EEDA3004A0D5C /* LEOShapeTriangle.m */,
+			);
+			path = inherit;
+			sourceTree = "<group>";
+		};
 		CFF0C5B42164679800191B61 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +123,7 @@
 		CFF0C5BF2164679800191B61 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				CF652AC2217EBC29004A0D5C /* inherit */,
 				0D6FFE97217E066C002BAE4D /* graph */,
 				CFF0C5C02164679900191B61 /* AppDelegate.h */,
 				CFF0C5C12164679900191B61 /* AppDelegate.m */,
@@ -179,14 +212,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF652AC5217EBCD9004A0D5C /* LEOShape.m in Sources */,
 				0D6FFEA0217E0BE9002BAE4D /* LEOCircle.m in Sources */,
 				0D6FFE9A217E0778002BAE4D /* LEORectangle.m in Sources */,
 				0D6FFE9D217E0A35002BAE4D /* LEOSquare.m in Sources */,
 				CF652A9F21799E41004A0D5C /* LEOSum.m in Sources */,
 				CFF0C5C52164679900191B61 /* ViewController.m in Sources */,
+				CF652AC8217EC40E004A0D5C /* LEOShapeRectangle.m in Sources */,
 				CFF0C5D0216467A000191B61 /* main.m in Sources */,
+				CF652AD1217EEDA3004A0D5C /* LEOShapeTriangle.m in Sources */,
 				CFF0C5C22164679900191B61 /* AppDelegate.m in Sources */,
+				CF652ACB217EC576004A0D5C /* LEOShapeSquare.m in Sources */,
 				CF4718E92170A0A10033A021 /* Student.m in Sources */,
+				CF652ACE217ED096004A0D5C /* LEOShapeCircle.m in Sources */,
 				0D6FFEA3217E0D10002BAE4D /* LEOTriangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
